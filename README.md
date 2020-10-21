@@ -38,8 +38,10 @@ http://localhost/elithica
 
 <p>The Elithica mode of building web structures involves a simple modular approach.</p>
 
-<p>The SPA application is built in components made of two files. First, an html template file, and second, a JavaScript view model.
-  The Header you see above in read is built as follows.</p>
+<p>The SPA application is built in components made of two files. First, an html template file, and second, a JavaScript view model.</p>
+
+
+<p>The Header you see in the preview above in red is built as follows.</p>
 
 <p>Here are example names:
   <ul>
@@ -49,7 +51,7 @@ http://localhost/elithica
 </p>
 
 <p>
-  The headerCT.html looks as follows:
+  The headerCT.html code looks as follows:
 </p>
 
 ```
@@ -59,7 +61,7 @@ http://localhost/elithica
 ```
 
 <p>
-  The headerVM.js looks as follows. The module pattern here is AMD (Asynchronous Module Definition):
+  The headerVM.js code looks as follows. The module pattern here is AMD (Asynchronous Module Definition):
 </p>
 
 
