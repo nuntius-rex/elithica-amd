@@ -3,7 +3,7 @@ A minimalistic front-end framework designed to allow for quick modular developme
 
 ## Explanation
 
-The Elithica framework is designed with quick, simple modularity in mind. It is useful in such cases where a larger library/framework is not needed and would probably be more trouble than desired. Elithica can also be helpful for students. Likewise designers, who may have ample experience in HTML, CSS, Bootstrap and jQuery, but not have excessive programming experience, who want to use a SPA (Single Page Application) structure will find more in common with their current skill set. With Elithica, you can do as much or as little as you want!
+The Elithica framework is designed with quick, simple modularity in mind. It is useful in such cases where a larger library/framework is not needed and would probably be more trouble than desired. Elithica can also be helpful for students. Likewise designers, who may have ample experience in HTML, CSS, Bootstrap and jQuery, but not have excessive programming experience, who want to use a SPA (Single Page Application) structure, will find more in common with their current skill set. With Elithica, you can do as much or as little as you want!
 
 ![Preview](/img/preview.png?raw=true "Preview")
 
@@ -76,7 +76,7 @@ http://localhost/elithica
 ```
 
 <p>
-  In our example, the component is identified to the system in initBaseCompModel.js.
+  In our example, the component is identified to the system in initBaseCompModel.js located at .
   Here, we just provide an object to the system as follows:
 </p>
 
