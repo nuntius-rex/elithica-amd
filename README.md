@@ -3,7 +3,7 @@ A minimalistic front-end module system designed to allow for quick modular devel
 
 ## Explanation
 
-<p>The Elithica module system is designed with quick, simple modularity in mind. It is useful in such cases where a larger library/framework is not needed and would probably be more trouble than desired. Elithica can also be helpful for students. Likewise designers, who may have ample experience in HTML, CSS, Bootstrap and jQuery, but not have excessive programming experience, who want to use a SPA (Single Page Application) structure. Most will find more in common with their current skill set. With Elithica, you can do as much or as little as you want!</p>
+<p>The Elithica module system is designed with quick, simple modularity in mind. It is useful in such cases where a larger library/framework is not needed and would probably be more trouble than desired. Elithica can also be helpful for students. Likewise designers, who may have ample experience in HTML, CSS, Bootstrap and jQuery, but not have excessive programming experience, who want to use a SPA (Single Page Application) structure, will find more in common with their current skill set. With Elithica, you can do as much or as little as you want!</p>
 
 ## Technology
 
