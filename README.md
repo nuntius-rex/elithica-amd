@@ -54,14 +54,17 @@ http://localhost/elithica
 </p>
 
 <p>
-  <code>
     <pre>
+
+      ```
 
       &lt;header&gt;
         &lt;h1>Elithica Example&lt;/h1&gt;
       &lt;/header&gt;
+
+      ```
+
     </pre>
-</code>
 </p>
 
 <p>
@@ -70,8 +73,9 @@ http://localhost/elithica
 
 
 <p>
-  <code>
     <pre>
+
+    ```
 
       define(['knockout'], function(ko) {
           return function headerViewModal() {
@@ -81,8 +85,9 @@ http://localhost/elithica
         } //End VM function
       }); //End Module
 
+    ```
+
     </pre>
-</code>
 </p>
 
 
@@ -92,8 +97,9 @@ http://localhost/elithica
 </p>
 
 <p>
-  <code>
     <pre>
+
+    ```
 
       {
           name: "header",
@@ -102,8 +108,10 @@ http://localhost/elithica
           path: "app/comps/headers/",
           active: "true"
       }
+
+      ```
+
     </pre>
-</code>
 </p>
 
 <p>
@@ -113,12 +121,11 @@ http://localhost/elithica
 </p>
 
 <p>
-  <code>
     <pre>
-
+    ```
         &lt;div data-bind="component: { name: 'headerWidget' }"&gt;&lt;/div&gt;
+    ```
     </pre>
-</code>
 </p>
 
 # SPA (Single Page Application) Routing
