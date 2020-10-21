@@ -35,7 +35,7 @@ http://localhost/elithica
   </ul>
 </p>
 
-## Modules
+### Modules
 
 <p>The Elithica mode of building web structures involves a simple modular approach.</p>
 
@@ -55,9 +55,10 @@ http://localhost/elithica
 
 ```
 
-&lt;header&gt;
-  &lt;h1>Elithica Example&lt;/h1&gt;
-&lt;/header&gt;
+<header>
+  <h1>Elithica (AMD version)</h1>
+</header>
+
 
 ```
 
@@ -67,7 +68,6 @@ http://localhost/elithica
 
 
 ```
-
   define(['knockout'], function(ko) {
       return function headerViewModal() {
           console.log("Header VM loaded!");
@@ -84,7 +84,6 @@ http://localhost/elithica
 </p>
 
 ```
-
   {
       name: "header",
       model: "headerVM",
@@ -102,15 +101,19 @@ http://localhost/elithica
 </p>
 
 ```
-    &lt;div data-bind="component: { name: 'headerWidget' }"&gt;&lt;/div&gt;
+    <div data-bind="component: { name: 'header' }"></div>
 ```
 
-# SPA (Single Page Application) Routing
+### SPA (Single Page Application) Routing Pages
 
-<p>Apache Scenario: This is a framework that is simply devoted to modularity. You will note that I have included an .htaccess file for Apache. In such cases where it is desired to use this framework for a PHP front-end, this works by directing all traffic to index.html. When I have been asked to do this, I have implemented a front-end routing mechanism or a service-based router in PHP, so there are many possibilities depending on your needs. </p>
+<p>This is a framework that is simply devoted to modularity. So it is best paired with NodeJS and Express. This enables the routing to be handled through the Express middle-ware rather than trying to reinvent the wheel.</p>
 
-<p>NodeJS/Express Scenario: If paired with NodeJS and Express, routing can be controlled by the server, which is generally easier to manage and a more concise scenario.</p>
+<p>
+However, I have used it with a standard server configuration on Apache and a PHP back-end. The methodology required is beyond this example. Yet the scenario mandates that you configure Apache with an .htaccess file (see code below) to direct all traffic to the index.html by default. Then, you intercept the url request, parse it and then manage component loading and data request accordingly. Again, much more complex that handling with NodeJS.  
+</p>
 
-# Multiple Pages on Standard Servers
+```
+DirectoryIndex index.html
+FallbackResource index.html
 
-<p>If used for multiple pages, instead of SPA, or a hybrid thereof, I have often changed init.js to be an auto-init-configuration loader instead of the init itself. I may provide different examples of this at a later time. </p>
+```
