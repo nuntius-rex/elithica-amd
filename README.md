@@ -35,7 +35,7 @@ http://localhost/elithica
   </ul>
 </p>
 
-## Modules>
+## Modules
 
 <p>The Elithica mode of building web structures involves a simple modular approach.</p>
 
@@ -53,66 +53,47 @@ http://localhost/elithica
   The headerCT.html looks as follows:
 </p>
 
-<p>
-    <pre>
+```
 
-      ```
+&lt;header&gt;
+  &lt;h1>Elithica Example&lt;/h1&gt;
+&lt;/header&gt;
 
-      &lt;header&gt;
-        &lt;h1>Elithica Example&lt;/h1&gt;
-      &lt;/header&gt;
-
-      ```
-
-    </pre>
-</p>
+```
 
 <p>
   The headerVM.js looks as follows. The module pattern here is AMD (Asynchronous Module Definition):
 </p>
 
 
-<p>
-    <pre>
+```
 
-    ```
+  define(['knockout'], function(ko) {
+      return function headerViewModal() {
+          console.log("Header VM loaded!");
+          //Your custom code here.
 
-      define(['knockout'], function(ko) {
-          return function headerViewModal() {
-              console.log("Header VM loaded!");
-              //Your custom code here.
+    } //End VM function
+  }); //End Module
 
-        } //End VM function
-      }); //End Module
-
-    ```
-
-    </pre>
-</p>
-
+```
 
 <p>
   In our example, the component is identified to the system in initBaseCompModel.js.
   Here, we just provide an object to the system as follows:
 </p>
 
-<p>
-    <pre>
+```
 
-    ```
+  {
+      name: "header",
+      model: "headerVM",
+      template: "headerCT.html",
+      path: "app/comps/headers/",
+      active: "true"
+  }
 
-      {
-          name: "header",
-          model: "headerVM",
-          template: "headerCT.html",
-          path: "app/comps/headers/",
-          active: "true"
-      }
-
-      ```
-
-    </pre>
-</p>
+  ```
 
 <p>
   Once the module is defined, it is now ready to use.
@@ -120,13 +101,9 @@ http://localhost/elithica
   in the page, you use the data-bind methodology.
 </p>
 
-<p>
-    <pre>
-    ```
-        &lt;div data-bind="component: { name: 'headerWidget' }"&gt;&lt;/div&gt;
-    ```
-    </pre>
-</p>
+```
+    &lt;div data-bind="component: { name: 'headerWidget' }"&gt;&lt;/div&gt;
+```
 
 # SPA (Single Page Application) Routing
 
