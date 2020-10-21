@@ -1,12 +1,11 @@
 # Elithica Front-End Framework (AMD)
 A minimalistic front-end framework designed to allow for quick modular development in common languages.
 
+## Explanation
+
+The Elithica framework is designed with quick, simple modularity in mind. It is useful in such cases where a larger library/framework is not needed and would probably be more trouble than desired. Elithica can also be helpful for students. Likewise designers, who may have ample experience in HTML, CSS, Bootstrap and jQuery, but not have excessive programming experience, who want to use a SPA (Single Page Application) structure will find more in common with their current skill set. With Elithica, you can do as much or as little as you want!
+
 ![Preview](/img/preview.png?raw=true "Preview")
-
-
-# Explanation
-
-The methodology is useful in such cases where a larger library/framework is not required. It is also helpful for students or designers who may have ample experience in HTML, CSS and jQuery and wish to learn a SPA (Single Page Application) structure.
 
 ## Install
 
@@ -54,12 +53,9 @@ http://localhost/elithica
 </p>
 
 ```
-
 <header>
   <h1>Elithica (AMD version)</h1>
 </header>
-
-
 ```
 
 <p>
@@ -71,7 +67,8 @@ http://localhost/elithica
   define(['knockout'], function(ko) {
       return function headerViewModal() {
           console.log("Header VM loaded!");
-          //Your custom code here.
+
+          //Your custom goes code here.
 
     } //End VM function
   }); //End Module
@@ -106,10 +103,9 @@ http://localhost/elithica
 
 ### SPA (Single Page Application) Routing Pages
 
-<p>This is a framework that is simply devoted to modularity. So it is best paired with NodeJS and Express. This enables the routing to be handled through the Express middle-ware rather than trying to reinvent the wheel.</p>
+<p>This is a framework that is simply devoted to modularity. So it is best paired with NodeJS and Express (example forthcoming). This enables the routing to be handled through the Express middle-ware rather than trying to reinvent the wheel.</p>
 
-<p>
-However, I have used it with a standard server configuration on Apache and a PHP back-end. The methodology required is beyond this example. Yet the scenario mandates that you configure Apache with an .htaccess file (see code below) to direct all traffic to the index.html by default. Then, you intercept the url request, parse it and then manage component loading and data request accordingly. Again, much more complex that handling with NodeJS.  
+<p>However, I have used it with a standard server configuration on Apache and a PHP back-end. The methodology required is beyond this example. Yet the scenario mandates that you configure Apache with an .htaccess file (see code below) to direct all traffic to the index.html by default. Then, you intercept the url request, parse it and then manage component loading and data request accordingly. Again, much more complex that handling with NodeJS.  
 </p>
 
 ```
