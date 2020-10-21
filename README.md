@@ -3,7 +3,13 @@ A minimalistic front-end framework designed to allow for quick modular developme
 
 ## Explanation
 
-The Elithica framework is designed with quick, simple modularity in mind. It is useful in such cases where a larger library/framework is not needed and would probably be more trouble than desired. Elithica can also be helpful for students. Likewise designers, who may have ample experience in HTML, CSS, Bootstrap and jQuery, but not have excessive programming experience, who want to use a SPA (Single Page Application) structure, will find more in common with their current skill set. With Elithica, you can do as much or as little as you want!
+<p>The Elithica framework is designed with quick, simple modularity in mind. It is useful in such cases where a larger library/framework is not needed and would probably be more trouble than desired. Elithica can also be helpful for students. Likewise designers, who may have ample experience in HTML, CSS, Bootstrap and jQuery, but not have excessive programming experience, who want to use a SPA (Single Page Application) structure. Most will find more in common with their current skill set. With Elithica, you can do as much or as little as you want!</p>
+
+#Technology
+
+<p>Elithica was originally inspired by the documentation on knockoutjs.com regarding AMD loading with RequireJS, located <a href="https://knockoutjs.com/documentation/amd-loading.html">here</a>. One popular framework that utilizes the same sort of approach described in the Knockout documentation is the much larger and more robust, enterprise-ready <a href="https://www.oracle.com/webfolder/technetwork/jet/index-alta.html">Oracle Jet</a>. While Elithica shares the same sort of modular approach, the comparison has to end there, as Elithica is not robust, and it is not feature rich. It is just designed to do a simple job ("be modular"), with the philosophy of "add only what is needed, not everything that you might need." Perhaps it will serve your needs well!    
+</p>
+
 
 ![Preview](/img/preview.png?raw=true "Preview")
 
