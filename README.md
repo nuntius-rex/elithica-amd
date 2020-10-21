@@ -1,5 +1,12 @@
-# Elithica (AMD)
+# Elithica Front-End Framework (AMD)
 A minimalistic front-end framework designed to allow for quick modular development in common languages.
+
+![Preview](/img/preview.png?raw=true "Preview")
+
+
+# Explanation
+
+The methodology is useful in such cases where a larger library/framework is not required. It is also helpful for students or designers who may have ample experience in HTML, CSS and jQuery and wish to learn a SPA (Single Page Application) structure.
 
 ## Install
 
@@ -28,7 +35,7 @@ http://localhost/elithica
   </ul>
 </p>
 
-<h2>Modules</h2>
+## Modules>
 
 <p>The Elithica mode of building web structures involves a simple modular approach.</p>
 
@@ -113,3 +120,13 @@ http://localhost/elithica
     </pre>
 </code>
 </p>
+
+# SPA (Single Page Application) Routing
+
+<p>Apache Scenario: This is a framework that is simply devoted to modularity. You will note that I have included an .htaccess file for Apache. In such cases where it is desired to use this framework for a PHP front-end, this works by directing all traffic to index.html. When I have been asked to do this, I have implemented a front-end routing mechanism or a service-based router in PHP, so there are many possibilities depending on your needs. </p>
+
+<p>NodeJS/Express Scenario: If paired with NodeJS and Express, routing can be controlled by the server, which is generally easier to manage and a more concise scenario.</p>
+
+# Multiple Pages on Standard Servers
+
+<p>If used for multiple pages, instead of SPA, or a hybrid thereof, I have often changed init.js to be an auto-init-configuration loader instead of the init itself. I may provide different examples of this at a later time. </p>

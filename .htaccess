@@ -1,1 +1,6 @@
-DirectoryIndex index.html index.php
+
+#When used with Apache type server, will direct all to index.html
+#Delete if using with NodeJS as it is not required.
+
+DirectoryIndex index.html
+FallbackResource index.html
