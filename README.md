@@ -84,7 +84,7 @@ http://localhost/elithica
 ```
 
 <p>
-  In our example, the component is identified to the system in initBaseCompModel.js located at .
+  In our example, the component is identified to the system in initBaseCompModel.js located in js/app/sys/config.
   Here, we just provide an object to the system as follows:
 </p>
 
