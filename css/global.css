@@ -1,0 +1,359 @@
+
+body{
+
+}
+
+a{
+  color: #E31836;
+}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #E31836 !important;
+}
+
+.navbar-default {
+    background-color: #292f33;
+}
+
+.navbar-brand{
+  font-size: 8pt;
+}
+
+header{
+  min-width:100%;
+  margin-top:50px !important;
+  background-color: #E31836;
+  color:#FFFFFF;
+  padding-left: 2%;
+}
+
+
+section{
+  /*border:solid 1px #C0C0C0;*/
+  max-width:100%;
+  margin:0 auto;
+  display: flex;
+  flex-wrap: wrap; /* disable flex-basis to enable the wrap*/
+}
+
+.column{
+  border:solid 0px;
+  margin:10px;
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0;
+}
+
+.sideColumn{
+  max-width:250px;
+}
+
+footer{
+  min-width:100%;
+  margin-top:50px !important;
+  background-color: #E31836;
+  color:#FFFFFF;
+  padding-left: 2%;
+  position: fixed;
+  bottom: 0;
+}
+
+main{
+  padding-bottom: 30px;
+}
+main section{
+  height: 700px;
+}
+
+#kcironfan_logo_1{
+  width:240px;
+}
+
+/*Jarvis*/
+#jarvisModal .modal-content{
+  border:solid 1px red;
+  background-color: transparent;
+  width: 100% !important;
+  color:red;
+}
+
+#jarvisModal .modal-header{
+  background-color: #000;
+  opacity: 0.9 !important;
+  border-bottom: 0px;
+}
+
+#jarvisModal .modal-body{
+
+  border-top:solid 1px red;
+  background-color: #000;
+  opacity: 0.9 !important;
+}
+
+
+#jarvisModal .modal-footer{
+  border-top:solid 1px red;
+  background-color: #000;
+  opacity: 0.9 !important;
+}
+
+#jarvisModal .modal-backdrop.in {
+	opacity: 0.9 !important;
+}
+
+#jarvisModal .modal-backdrop {
+    background-color: #000;
+}
+
+
+#jarvis_left{
+  width:20%;
+  max-width: 20% !important;
+  overflow: hidden;
+  height:470px;
+}
+
+#jarvis_center{
+  text-align: left !important;
+  width:80%;
+  max-width: 80%;
+  overflow: hidden;
+}
+
+#jarvis_right{
+  width:20%;
+  max-width: 20% !important;
+  overflow: hidden;
+}
+
+/*Jarvis Reactor
+#Layer_1{
+  text-align: left;
+  position: relative;
+  margin-left: 0px;
+  margin-top: 0px;
+}
+*/
+
+
+
+
+
+/*Jarvis Reactor*/
+
+@media (min-width:0px) and (max-width:320px){
+
+  svg {
+    max-width: 280px;
+    max-height: 280px;
+    margin-left: 5%;
+  }
+
+}
+
+ @media (min-width:321px) and (max-width:639px){
+
+   svg {
+     max-width: 280px;
+     max-height: 280px;
+     margin-left: 15%;
+   }
+ }
+
+@media (min-width:640px){
+
+  svg {
+    max-width: 280px;
+    max-height: 280px;
+    margin-left: 20%;
+  }
+
+}
+
+.st0, .st1, .st2, .st3 {
+  fill: none;
+  stroke: #F70606;
+  stroke-width: 42;
+  stroke-miterlimit: 10;
+}
+
+.st0 {
+  stroke-dasharray: 12.1947, 12.1947, 12.1947, 12.1947, 12.1947, 12.1947;
+}
+
+.st1 {
+  stroke-dasharray: 50, 90, 200, 30, 40, 0;
+}
+
+.st2 {
+  stroke-linecap: square;
+  stroke-dasharray: 120, 20, 110, 20, 140;
+}
+
+.st3 {
+  stroke-width: 16;
+  stroke-linecap: square;
+}
+
+
+/*jarvis_matrix*/
+.jarvis_matrix canvas {display: block;}
+
+
+/*JARVIS TALK*/
+#vwr{
+  /*border: solid 1px #FFF;*/
+  margin:5px;
+	-moz-box-shadow: inset -12px 0px 50px 50px #000;
+	-webkit-box-shadow: inset -12px 0px 50px 50px #000;
+	box-shadow: inset -500px -100px 400px 25px rgba(0,0,0,0.25);
+	/* Alas, box-shadow is not fully supported by IE < 9 */
+}
+#pg{
+  position:relative;
+  height:90%;
+}
+#txt{
+  position:absolute;
+  bottom:0px;
+  display:list-item;
+  padding-right:50px;
+}
+#inp{
+  position:absolute;
+  border:0;
+  outline:none;
+  width:100%;
+  height:50px;
+  background:none;
+  caret-color: #111;
+}
+#txt,
+#inp{
+  font-family:VT323;
+  text-transform:uppercase;
+  line-height:25px;
+  font-size:25px;
+  mix-blend-mode: difference;
+  opacity:0.75;
+  color:red;
+  text-shadow: 0 0 2px rgba(250,0,0,0.88);
+}
+
+#gli{
+  -webkit-animation: giggle 0.1s ease infinite;
+          animation: giggle 0.1s ease infinite;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  overflow:hidden;
+  margin:5px;
+}
+b{
+  display:inline-block;
+  -webkit-animation: worser .13s ease infinite;
+          animation: worser .13s ease infinite;
+  font-weight:normal;
+}
+i{
+  font-family: Courier;
+  font-style:normal;
+  color:red;
+  text-shadow: 0 0 4px rgba(250,0,0,0.75);
+}
+
+@-webkit-keyframes giggle {
+  0%, 100% {
+    -webkit-transform: translateY(-0.35px);
+            transform: translateY(-0.35px);
+  }
+  50% {
+    -webkit-transform: translateY(0.35px);
+            transform: translateY(0.35px);
+  }
+}
+
+@keyframes giggle {
+  0%, 100% {
+    -webkit-transform: translateY(-0.35px);
+            transform: translateY(-0.35px);
+  }
+  50% {
+    -webkit-transform: translateY(0.35px);
+            transform: translateY(0.35px);
+  }
+}
+@-webkit-keyframes worser {
+  0%, 100% {
+    -webkit-transform: translateY(-.33px);
+            transform: translateY(-.33px);
+  }
+  50% {
+    -webkit-transform: translateY(.33px);
+            transform: translateY(.33px);
+  }
+}
+
+@keyframes worser {
+  0%, 100% {
+    -webkit-transform: translateY(-.33px);
+            transform: translateY(-.33px);
+  }
+  50% {
+    -webkit-transform: translateY(.33px);
+            transform: translateY(.33px);
+  }
+}
+@-webkit-keyframes lines {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 0px 25px;
+  }
+}
+@keyframes lines {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 0px 25px;
+  }
+}
+
+.twitterWidget{
+  height: 650px;
+  max-height: 650px;
+  overflow: auto;
+}
+
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+  background: gray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
+
+
+#jarvisStats{
+  border:solid 1px red;
+  width:100%;
+  height:300px;
+  padding: 5px;
+  background-color: #000;
+  color:#E31836;
+}
