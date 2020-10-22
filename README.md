@@ -1,4 +1,4 @@
-# Elithica Front-End Module System (AMD)
+# Elithica Front-End Module System
 A minimalistic front-end module system designed to allow for quick modular development in common languages.
 
 ## Explanation
