@@ -1,6 +1,5 @@
 # Elithica Front-End Module System
-
-<p>A minimalistic front-end module system designed to allow for quick modular development in common languages.</p>
+A minimalistic front-end module system designed to allow for quick modular development in common languages.
 
 ## Explanation
 
