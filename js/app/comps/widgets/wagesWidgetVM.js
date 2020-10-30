@@ -5,7 +5,7 @@ define(['knockout'], function(ko) {
         /*
         Once the module is defined, one can perform the specific
         modular programming. Here we are using jQuery, since it is defined in init.js.
-        One could also code straight knockout here of course. 
+        One could also code straight knockout here of course.
         */
 
         $('#calculateWagesbutton').click(function(e){
@@ -29,7 +29,7 @@ define(['knockout'], function(ko) {
               border:solid 1px;
               padding:10px;
               width:200px;
-              height:350px;
+              height:380px;
           }
 
           #wagesWidget label{

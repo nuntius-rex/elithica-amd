@@ -65,8 +65,15 @@ define(['knockout'], function(ko) {
           //======================================
           {
             name:"wagesWidget",
-            model: "wagesWidgeVM",
-            template: "wagesWidgeCT.html",
+            model: "wagesWidgetVM",
+            template: "wagesWidgetCT.html",
+            path: "app/comps/widgets/",
+            active: "true"
+          },
+          {
+            name:"wagesKOWidget",
+            model: "wagesWidget_KO-VM",
+            template: "wagesWidget_KO-CT.html",
             path: "app/comps/widgets/",
             active: "true"
           }

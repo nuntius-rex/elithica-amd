@@ -4,7 +4,7 @@
 
 ## Explanation
 
-<p>The Elithica module system is designed with quick, simple modularity in mind. It is useful in such cases where modularity is the main concern. Elithica can also be helpful for students and designers. Many may have ample experience in HTML, CSS, Bootstrap and jQuery, but may not have excessive programming experience, and yet want to use a SPA (Single Page Application) structure. These will find more in common with their current skill set. With Elithica, you can do as much or as little as you want!</p>
+<p>The Elithica module system is designed with quick, simple modularity in mind. It is useful in such cases where modularity is the main concern. Elithica can also be helpful for students and designers. Many may have ample experience in HTML, CSS, Bootstrap and jQuery, but may not have excessive programming experience, and yet want to use a SPA (Single Page Application) structure. These will find more in common with their current skill set. With Elithica, you can do as much or as little as you want! Use the module setup for modular jQuery components or use the KnockoutJS structure to make reactive components.</p>
 
 ## Technology
 
