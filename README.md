@@ -20,9 +20,9 @@ To install this version, clone this repo into a server directory:
 git clone https://github.com/nuntius-rex/elithica-amd
 ```
 
-<p>There is also a <a href="https://github.com/nuntius-rex/Elithica-Node">NodeJS version</a> available. That is a full-stack example.</p>
+<p>There is also a <a href="https://github.com/nuntius-rex/Elithica-Node">NodeJS version</a> available, that is a full-stack example.</p>
 
-<p>Note: The front-end application will fail if opened directly due to modern browser CORS (Cross Origin Resource Sharing) restrictions.</p>
+<p>Note: This front-end application will fail if opened directly due to modern browser CORS (Cross Origin Resource Sharing) restrictions. Open on a server such as localhost.</p>
 
 ### Running
 
