@@ -112,7 +112,7 @@ http://localhost/elithica
 
 ### SPA (Single Page Application) Routing Pages
 
-<p>This is a module system that is simply devoted to modularity. So it is best paired with NodeJS and Express (<a href="https://github.com/nuntius-rex/Elithica-Node">see my example here</a>). This enables the routing to be handled through the Express middle-ware rather than trying to reinvent the wheel.</p>
+<p>This is a module system that is simply devoted to modularity. So it is best paired with NodeJS and Express (<a href="https://github.com/nuntius-rex/Elithica-Node">see my example here</a>). This allows the routing to be handled through the Express middle-ware rather than trying to reinvent the wheel.</p>
 
 <p>However, I have used it with a standard server configuration on Apache and a PHP back-end. The methodology required is beyond this example. Yet the scenario mandates that you configure Apache with an .htaccess file (see code below) to direct all traffic to the index.html by default. Then, you intercept the url request, parse it and then manage component loading and data request accordingly. Again, much more complex that handling with NodeJS.  
 </p>
