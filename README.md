@@ -1,6 +1,9 @@
 # Elithica Front-End Module System
 A minimalistic front-end module system designed to allow for quick modular development in common languages.
 
+<p style="color:red">NOTE: THIS REPO IS RETAINED FOR HISTORCAL REASONS AS PRE-WORK HISTORY OF THE OFFICIAL ELITHICA.<br>
+TO DOWNLOAD CURRENT VERSIONS GET OUR <a href="https://www.npmjs.com/package/@elithica/cli" target="_blank">ELITHICA CLI</a>.</p>
+
 ## Explanation
 
 <p>The Elithica module system is designed with quick, simple modularity in mind. It is useful in such cases where modularity is the main desire. Elithica can o be helpful for students and designers. Many may have ample experience in HTML, CSS, Bootstrap and jQuery, but may not have excessive programming experience, and yet want to use a SPA (Single Page Application) structure. These will find more in common with their current skill set. With Elithica, you can do as much or as little as you want! Use the module setup for modular jQuery components or use the more advanced KnockoutJS structure to make reactive components. Two modules have been included to demonstrate both concepts.</p>
